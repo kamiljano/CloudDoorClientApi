@@ -1,0 +1,17 @@
+{
+  "name": "clouddoorclientapi",
+  "version": "1.0.0",
+  "description": "Public API available for the CloudDoor client access",
+  "main": "index.js",
+  "scripts": {
+    "start": "func host start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kamil Janowski - kgjanowski@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "azure-iothub": "^1.9.5",
+    "lodash": "^4.17.11",
+    "uuid": "^3.3.2"
+  }
+}
